@@ -1,0 +1,53 @@
+{
+  "comments": [
+    {
+      "id": "1",
+      "text": "First comment",
+      "user": "User1",
+      "parentId": null,
+      "timestamp": "2021-08-16T23:00:33.010+02:00"
+    },
+    {
+      "id": "2",
+      "test": "Second comment",
+      "user": "User2",
+      "parentId": null,
+      "timestamp": "2021-08-16T23:00:33.010+02:00"
+    },
+    {
+      "id": "3",
+      "test": "First reply to First comment",
+      "user": "User3",
+      "parentId": "1",
+      "timestamp": "2021-08-16T23:00:33.010+02:00"
+    },
+    {
+      "id": "4",
+      "text": "Second reply to First comment",
+      "user": "User4",
+      "parentId": "1",
+      "timestamp": "2021-08-16T23:00:33.010+02:00"
+    },
+    {
+      "id": "5",
+      "text": "First reply to Second comment",
+      "user": "User5",
+      "parentId": "2",
+      "timestamp": "2021-08-16T23:00:33.010+02:00"
+    },
+    {
+      "id": "6",
+      "text": "First reply to Second reply of First comment",
+      "user": "User6",
+      "parentId": "5",
+      "timestamp": "2021-08-16T23:00:33.010+02:00"
+    },
+    {
+      "id": "7",
+      "text": "Third comment",
+      "user": "User4",
+      "parentId": null,
+      "timestamp": "2021-08-16T21:00:33.010+02:00"
+    }
+  ]
+}
