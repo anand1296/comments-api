@@ -9,45 +9,73 @@
     },
     {
       "id": "2",
-      "test": "Second comment",
-      "user": "User2",
+      "text": "Second comment",
+      "user": "Jon Snow",
       "parentId": null,
       "timestamp": "2021-08-16T23:00:33.010+02:00"
     },
     {
       "id": "3",
-      "test": "First reply to First comment",
-      "user": "User3",
+      "text": "First reply to First comment",
+      "user": "Heisenberg",
       "parentId": "1",
       "timestamp": "2021-08-16T23:00:33.010+02:00"
     },
     {
       "id": "4",
       "text": "Second reply to First comment",
-      "user": "User4",
+      "user": "Harvey Spectre",
       "parentId": "1",
       "timestamp": "2021-08-16T23:00:33.010+02:00"
     },
     {
       "id": "5",
       "text": "First reply to Second comment",
-      "user": "User5",
+      "user": "X User",
       "parentId": "2",
       "timestamp": "2021-08-16T23:00:33.010+02:00"
     },
     {
       "id": "6",
-      "text": "First reply to Second reply of First comment",
+      "text": "First reply to Second reply of First comment - test 2 level nested long text comment!!",
       "user": "User6",
-      "parentId": "5",
+      "parentId": "4",
       "timestamp": "2021-08-16T23:00:33.010+02:00"
     },
     {
       "id": "7",
       "text": "Third comment",
-      "user": "User4",
+      "user": "Anonymous",
       "parentId": null,
       "timestamp": "2021-08-16T21:00:33.010+02:00"
+    },
+    {
+      "id": "1701290294177",
+      "text": "new Comment1",
+      "user": "newUser1",
+      "parentId": null,
+      "timestamp": "2023-11-29T20:38:14.177Z"
+    },
+    {
+      "id": "1701290401370",
+      "text": "new comment 2.2",
+      "user": "newUser2",
+      "parentId": null,
+      "timestamp": "2023-11-29T20:40:01.370Z"
+    },
+    {
+      "id": "1701290654880",
+      "text": "new user 3",
+      "user": "newUser 3",
+      "parentId": null,
+      "timestamp": "2023-11-29T20:44:14.880Z"
+    },
+    {
+      "id": "1701290747598",
+      "text": "new reply 4",
+      "user": "newUser4",
+      "parentId": "1701290654880",
+      "timestamp": "2023-11-29T20:45:47.598Z"
     }
   ]
 }
